@@ -13,25 +13,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
+        guard let _ = (scene as? UIWindowScene) else { return }
         
-        let window = UIWindow(windowScene: windowScene)
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        
-        let accessToken = UserDefaults.standard.string(forKey: "access_token")
-        
-        if let token = accessToken, !token.isEmpty {
-            let homeVC = storyboard.instantiateViewController(withIdentifier: "BookingVc") as! BookingVc
-            let nav = UINavigationController(rootViewController: homeVC)
-            window.rootViewController = nav
-        } else {
-            let loginVC = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-            let nav = UINavigationController(rootViewController: loginVC)
-            window.rootViewController = nav
-        }
-        
-        self.window = window
-        window.makeKeyAndVisible()
+//        let window = UIWindow(windowScene: windowScene)
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        
+//        let accessToken = UserDefaults.standard.string(forKey: "access_token")
+//        
+//        if let token = accessToken, !token.isEmpty {
+//            let homeVC = storyboard.instantiateViewController(withIdentifier: "BookingVc") as! BookingVc
+//            let nav = UINavigationController(rootViewController: homeVC)
+//            window.rootViewController = nav
+//        } else {
+//            let loginVC = storyboard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+//            let nav = UINavigationController(rootViewController: loginVC)
+//            window.rootViewController = nav
+//        }
+//        
+//        self.window = window
+//        window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

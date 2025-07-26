@@ -70,7 +70,7 @@ class BookingVc: UIViewController {
             vWFaireDetails.isHidden = false
             DispatchQueue.main.async {
                 self.lblBasicfare.text = "Basic fare: ₹\(fare.basic ?? "0")"
-                self.lblDiscount.text = "Discount: ₹\(fare.discount ?? "0")"
+                self.lblDiscount.text = "Discount: \(fare.discount ?? "0")%"
                 self.lblFinalamount.text = "Final amount: ₹\(fare.amount ?? "0")"
                 self.lblCoupon.text = "Coupon: \(fare.coupon ?? "-")"
                 
