@@ -13,7 +13,7 @@ class LoginViewModel:NSObject{
     func login(completion: @escaping (LoginResponseModel?) -> Void) {
         
         let parameters: [String: Any] = [
-            "username": "test_username"
+            "username": ""
         ]
         
         let headers: HTTPHeaders = [

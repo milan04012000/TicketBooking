@@ -24,6 +24,9 @@ class ViewController: UIViewController {
         
         
         let kkkk = "sdds"
+        
+        
+        let p = "ppppppp"
     }
     
     var loginViewModel = LoginViewModel()
@@ -35,6 +38,8 @@ class ViewController: UIViewController {
 
         setUI()
         startTypewriterAnimation()
+        
+        let tt = ""
     }
     
     func setUI() {
