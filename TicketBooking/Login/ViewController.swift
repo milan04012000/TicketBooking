@@ -31,6 +31,8 @@ class ViewController: UIViewController {
         let bbbbbb = "bbbbbb"
         
         let develp = "develop"
+        
+        let my_develop_codetomilan = "Milan main"
     }
     
     var loginViewModel = LoginViewModel()
