@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         self.loginViewModel = LoginViewModel()
+      
         
+        
+        let kkkk = "sdds"
     }
     
     var loginViewModel = LoginViewModel()
