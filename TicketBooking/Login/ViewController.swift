@@ -23,16 +23,7 @@ class ViewController: UIViewController {
       
         
         
-        let kkkk = "main brnch"
-        
-        
-        let p = "ppppppp"
-        
-        let bbbbbb = "bbbbbb"
-        
-        let develp = "develop"
-        
-        let my_develop_codetomilan = "Milan main"
+        let kkkk = "code from develop"
     }
     
     var loginViewModel = LoginViewModel()
