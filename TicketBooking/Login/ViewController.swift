@@ -27,6 +27,8 @@ class ViewController: UIViewController {
         
         
         let p = "ppppppp"
+        
+        let bbbbbb = "bbbbbb"
     }
     
     var loginViewModel = LoginViewModel()
