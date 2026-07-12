@@ -34,6 +34,8 @@ class ViewController: UIViewController {
 
         setUI()
         startTypewriterAnimation()
+        
+        let tt = ""
     }
     
     func setUI() {
