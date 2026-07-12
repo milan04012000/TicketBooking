@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         super.init(coder: aDecoder)
         self.loginViewModel = LoginViewModel()
         
+        
+        let p = ""
     }
     
     var loginViewModel = LoginViewModel()
