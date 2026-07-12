@@ -14,7 +14,7 @@ class LoginViewModel:NSObject{
         
         let parameters: [String: Any] = [
             "username": "bbbbbbbbb"
-            "pass": "aaa"
+            "pass": "aaa1"
         ]
         
         let headers: HTTPHeaders = [
